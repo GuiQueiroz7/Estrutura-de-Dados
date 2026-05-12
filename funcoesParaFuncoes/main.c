@@ -21,17 +21,15 @@ int ordenaPorProntuario(const void* p1, const void* p2){
 }
 
 int ordenaPorMediaCresc(const void* p1, const void* p2){
-    struct estudante *e1 = (struct estudante*)p1;
-    struct estudante *e2 = (struct estudante*)p2;
-
-    return (e1->media <= e2->media?-1:+1);
+    float media1 = ((struct estudante*) p1)->media;
+    float media2 = ((struct estudante*) p2)->media;
+    return (media1 <= media2?-1:+1);
 }
 
 int ordenaPorMediaDecresc(const void* p1, const void* p2){
-    struct estudante *e1 = (struct estudante*)p1;
-    struct estudante *e2 = (struct estudante*)p2;
-
-    return (e1->media <= e2->media?+1:-1);
+    float media1 = ((struct estudante*) p1)->media;
+    float media2 = ((struct estudante*) p2)->media;
+    return (media1 >= media2?-1:+1);
 }
 
 void listaAlunos(struct estudante alunos[], int size){
