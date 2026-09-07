@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1778450875 source:g:\meu drive\estudos\ifsp - bcc\3° semestre\esda\fila\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<assert.h>
+	<stdbool.h>
+
