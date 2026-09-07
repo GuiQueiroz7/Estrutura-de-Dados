@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1788811215 source:/home/guilherme/Documentos/IFSP BCC/LabEsDa/SistemaDeBuscaAnimal/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1788811215 source:/home/guilherme/Documentos/SistemaDeBuscaAnimal/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
